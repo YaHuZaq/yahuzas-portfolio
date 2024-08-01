@@ -1,0 +1,222 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+</head>
+<body>
+    <header>
+        <span id="logo">Dejong</span>
+
+        <img src="cancel.png" id="cancelled" onclick="hide()">
+        <img src="side3.png" id="side" onclick="show()">
+        <nav id="most">
+            <a href="#first"> About</a>
+            <a href="#second">Skills</a>
+            <a href="#third" >Projects</a>
+            <a href="#fourth">Contact</a>
+            <a href="#fifth">Services</a>
+           
+        </nav>
+
+        <nav id="mostly" style="display: none;">
+          <a href="#first" onclick="hideall()"> About</a>
+          <a href="#second"  onclick="hideall()">Skills</a>
+          <a href="#third"  onclick="hideall()">Projects</a>
+          <a href="#fourth" onclick="hideall()">Contact</a>
+          <a href="#fifth" onclick="hideall()">Services</a>
+         
+      </nav>
+        
+       
+    </header>
+    <main>
+      <div class="container">
+         <div class="content1">
+           <h2>I am Dejong</h2>
+           <h3>Web Developer</h3>
+           <p>Welcome To my portfolio website</p>
+           <button>Contact</button>
+         </div>
+         <div class="content2">
+           <img src="photo1.gif" alt="">
+         </div>
+      </div>
+    </main>
+
+    <section class="sec-one" id="first">
+
+       <div class="content1-sec-one">
+        <img src="image3.jpg" alt="">
+       </div>
+       <div class="content2-sec-one">
+        <h1>About</h1>
+        <p>Yahuza Usman is my fullname popularly known as Dejong,
+          i am a Frontend developer,
+          i prepared for your large or small project. Just check my services below
+        </p>
+        
+       </div>
+    </section>
+
+    <section class="sec-two" id="second">
+      <h2>My skills</h2>
+      <div class="container">
+        <div class="content">
+          <h3>Javascript</h3>
+          <img src="javascript.png" width="80px">
+        </div>
+
+        <div class="content">
+          <h3>Html5</h3>
+          <img src="logo.png" width="80px">
+        </div>
+
+        <div class="content">
+          <h3>jquery</h3>
+          <img src="jquery.png" width="80px">
+        </div>
+
+        <div class="content">
+          <h3>PHP</h3>
+          <img src="php.png" width="80px">
+        </div>
+
+        <div class="content">
+          <h3>react native</h3>
+          <img src="reactjs.png" width="80px">
+        </div>
+      </div>
+    </section>
+
+    <section class="sec-three" id="third">
+      <div class="container">
+        <h2>My projects</h2>
+       <div class="all">
+        <div class="content">
+          <h3> D.global tech project</h3>
+          <img src="text3.PNG" alt="" style="width: 300px; height: 350px;">
+          <button>Check Project</button>
+         </div>
+ 
+         <div class="content">
+           <h3> eng portfolio project</h3>
+           <img src="text.PNG" alt="" style="height: 400px; width: 300px;">
+           
+           <button><a href="https://yahuzaq.github.io/portfolio-eng/">Check Project</a></button>
+          </div>
+
+
+          <div class="content">
+            <h3>D Restourant</h3>
+            <img src="text1.PNG" style="width: 300px; height: 350px;">
+            <button>Check Project</button>
+           </div>
+       </div>
+      </div>
+    </section>
+
+
+    <section class="sec-four" id="fourth">
+      <h2>Contact</h2>
+      <h3>Send us a message</h3>
+      <div class="form-container">
+          <form action="https://formsubmit.co/yahuzausman787g@gmail.com" method="POST">
+              <input type="text" name="name" placeholder="Name">
+              <input type="email" name="Email" placeholder="Email">
+              <textarea name="text" placeholder="your message here"></textarea>
+              <button type="submit">Submit</button>
+          </form>
+      </div>
+    </section>
+
+
+    <section class="sec-five" id="fifth">
+      <div class="container">
+        <h1>My Services</h1>
+          <h2> Contact me if having issues related to those services</h2>
+        <div class="content">
+           <div class="item">
+               <img src="webapp.png" width="150px">
+               <h3>Web Application</h3>
+               <p>We build responsive web app with friendly user interface.</p>
+               <a href="https://www.facebook.com/yahuza.usman"><button>Hire Me</button></a> 
+           </div>
+   
+           <div class="item">
+               <img src="website.png" width="150px">
+               <h3>Web development</h3>
+               <p>get responsive website that fit your business</p>
+               <a href="https://www.facebook.com/yahuza.usman"><button>Hire Me</button></a> 
+           </div>
+   
+          
+   
+           <div class="item">
+               <img src="front.png" width="150px">
+               <h3>Frontend Development</h3>
+               <p>using poular Frontend frameworks like react angular and jquery.</p>
+               <a href="https://www.facebook.com/yahuza.usman"><button>Hire Me</button></a> 
+           </div>
+   
+          
+   
+           <div class="item">
+               <img src="responsive1.png" width="150px">
+               <h3>Responsive Design</h3>
+               <p>transform your unresponsive website all screens responsiveness .</p>
+              <a href="https://www.facebook.com/yahuza.usman"><button>Hire Me</button></a> 
+           </div>
+   
+        </div>
+      </div> 
+    </section>
+
+    <section class="sec-six" >
+      <div class="title">
+        <h2>
+            How can we assist you
+        </h2>
+        <h3>Need a portfolio</h3>
+        <h3>Website for my business</h3>
+        <h3></h3>
+      </div>
+
+      <div class="social">
+        <img src="facebook.png" width="40px">
+        <img src="insta.png" width="40px">
+        <img src="twitter.png" width="40px">
+        <a href="https://www.facebook.com/yahuza.usman"></a>
+        <img src="whatsapp.png" width="40px">
+      </div>
+
+      <div class="footer">
+        <h2>© 2024 D Global Tech. All Rights Reserved</h2>
+      </div>
+    </section>
+</body>
+
+
+<script>
+  function show(){
+    document.getElementById("mostly").style.display ="flex";
+    document.getElementById("side").style.display ="none";
+    document.getElementById("cancelled").style.display ="block";
+  }
+
+  function hide(){
+    document.getElementById("mostly").style.display ="none";
+    document.getElementById("side").style.display ="block";
+    document.getElementById("cancelled").style.display ="none";
+  }
+
+  function hideall(){
+    document.getElementById("mostly").style.display ="none";
+    document.getElementById("cancelled").style.display ="none";
+    document.getElementById("side").style.display ="block";
+  }
+</script>
+</html>
